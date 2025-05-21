@@ -2,9 +2,9 @@
 
 function ContactBox() {
     return (
-        <div>
-            <p>Didnt find your answer</p>
-            <button>CONTACT ME</button>
+        <div className="flex flex-col items-center justify-center gap-3">
+            <p className="uppercase">Didnt find your answer</p>
+            <button className="bg-[#bba486] p-4 uppercase">CONTACT ME</button>
         </div>
     )
 };
